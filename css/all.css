@@ -1,0 +1,574 @@
+/* CSS Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+html {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+	vertical-align: middle;
+}
+q, blockquote {
+	quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+	content: "";
+	content: none;
+}
+a img {
+	border: none;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+	display: block;
+}
+html {
+}
+*,*:before,*:after{
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	height: auto ;
+}
+/* CSS Reset end */
+
+.clear{
+	clear: both;
+}
+.wrap{
+	width: 100%;
+	height: a;
+}
+.top{
+	position: fixed;
+	z-index: 998;
+	width: 50px;
+	height: 20px;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 5px;
+    text-align: center;
+}
+
+.top a{
+	text-decoration: none;
+}
+.section_title{
+	background-image: url(../image/header_mobile@2x.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 420px;
+	position: relative;
+}
+
+.header{
+	background-color: rgba(0, 0, 0, 0.6);
+	height: 50px;
+	
+}
+
+.header .logo{
+	float: left;
+	font-size: 36px;
+	color: #fff;
+	font-weight: bold;
+	padding: 5px 20px;
+
+}
+
+.btn_menu{
+	float: right;
+	display: none;
+}
+
+.nav{
+	float: right;
+}
+
+.nav li{
+	cursor: pointer;
+	float: left;
+	padding: 18px 15px;
+}
+
+.nav li a{
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+
+.container{
+	position: absolute;
+	top: 210px;
+	left: 50%;
+	width: 460px;
+	height: 150px;
+	color: #fff;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	padding: 15px;
+	background-color: rgba(214, 211, 211, 0.6)
+}
+
+.container h1{
+	font-size: 36px;
+	margin-bottom: 15px;
+}
+
+.container p{
+	font-size: 16px;
+}
+
+
+.section_container{
+	background-color: #EFE9E7;
+	height: auto;
+	text-align: center;
+	position: relative;
+}
+
+.section_container .title{
+	padding-top: 40px;
+}
+
+.section_container .title p{
+	color:#3D1101;
+	font-size: 30px;
+	font-weight: 800;
+	padding: 20px;
+}
+
+.section_container .title p::after{
+	position: absolute;
+    content: ' ';
+    border-bottom: 1px solid #979797;
+    height: 5px;
+    width: 14%;
+    top: 80px;
+    left: 27%;
+}
+
+.section_container .title p::before{
+	position: absolute;
+    content: ' ';
+    border-bottom: 1px solid #979797;
+    height: 5px;
+    width: 14%;
+    top: 80px;
+    right: 27%;
+}
+
+.introduction li{
+	max-width: 32.333%;
+	padding: 30px;
+	display: inline-block;
+}
+
+.introduction_1{
+	background-image: url(../image/feature_1@2x.png);
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.introduction_2{
+	background-image: url(../image/feature_2@2x.png);
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.introduction_3{
+	background-image: url(../image/feature_3@2x.png);
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.introduction li h3{
+	color: #3D1101 ;
+	font-size: 18px;
+	font-weight: 900;
+	margin: 15px 0;
+}
+
+.introduction li p{
+	color: #3D1101 ;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+/*********************section_title*************************/
+
+.section_cooks{
+	background-color: #f0932b;
+	width: 100%;
+	height: 460px;
+}
+
+.section_cooks .cook{
+	background-image:url(../image/main_chef_brown@2x.png);
+	background-size: cover;
+	width: 45%;
+	height: 460px;
+	margin-left: 50px;
+	float: left;
+}
+
+.section_cooks .about{
+	width: 50%;
+	margin-top: 100px;
+	height: auto;
+	float: right;
+	display: block;
+}
+
+.section_cooks h1{
+	color: #3D1101 ;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.section_cooks p{
+	color: #3D1101 ;
+	font-size: 16px;
+	padding: 5px;
+}
+/*********************section_cook*************************/
+
+.section_guests{
+	background-color: #ffeaa7;
+	height: 450px;
+	
+}
+
+.section_guests h2{
+	font-size: 24px;
+	font-weight: 900;
+	padding-top: 40px;
+	color: #3D1101 ;
+	text-align: center;
+}
+
+
+.guests{
+	margin-top: 80px;
+}
+
+.guests li{
+	float: left;
+	width: 32.3%;
+}
+
+.guests img{
+	float: left;
+	border-radius: 50%;
+}
+
+.impression {
+    overflow: hidden;
+    padding-left: 10px;
+    padding-top: 56px;
+}
+
+.impression h3{
+    margin: 12px 0;
+}
+
+
+.impression p{
+    line-height: 25px;
+}
+.impression span{
+	display: block;
+	float: right;
+}
+
+/*********************section_guests*************************/
+
+
+.reservation{
+	height: auto;
+	background: #F6F4F3;
+	color: #3D1101;
+	padding: 50px; 
+}
+
+.reservation_container{
+	margin: 0 auto;
+}
+
+.reservation h2{
+	font-size: 24px;
+	color: #3D1101;
+	text-align: center;
+	padding-bottom: 40px;
+
+}
+
+
+.reservation ul{
+margin: 0 auto;
+}
+
+.reservation li{
+	float: left;
+	width: 48%;
+}
+
+.reservation ul li iframe {
+	width: 100%;
+	height: 350px; 
+}
+
+.reservation ul .form {
+	padding: 0 20px 20px 40px;
+}
+
+.reservation ul .form label {
+	display: block;
+	margin: 10px 0;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+.contact_form_text {
+    width: 90%;
+}
+
+
+
+/*********************section_map*************************/
+
+
+.shop{
+	background: #F6F4F3;
+	width: 100%;
+	padding-top: 62px;
+	height: auto;
+}
+
+.shop .side{
+	width: 15%;
+	margin-left: 70px;
+	float: left;
+}
+
+.shop .side h2{
+	font-size: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.shop .side li{
+	font-size: 18px;
+	border-bottom: 1px solid #3D1101;
+	padding: 12px;
+	text-align: center;
+	cursor: pointer;
+	transition: all .3s
+}
+
+
+.shop .side li:hover{
+	background-color: #3D1101;
+	color: #F6F4F3;
+}
+
+
+/*********************shpo_car*************************/
+@media (max-width:375px){
+
+.section_title{
+		background-image: url(../image/header_mobile.png);
+}
+
+.header .logo{
+		padding: 5px 8px;
+	
+}
+
+
+.btn_menu{
+	display: block;
+	color: #fff;
+	padding: 9px 15px;
+}
+
+.nav{
+	background-color: #000;
+	position: absolute;
+	top:50px;
+	right:0;
+	left: 0;
+	z-index: 999;
+	overflow: hidden;
+	max-height: 0;
+	transition: all 1.6s;
+}
+
+
+.nav.active{
+	max-height: 100%;
+
+}
+.nav li{
+	float: none;
+	text-align: center;
+}
+
+
+.container{
+	position: absolute;
+	top: 210px;
+	left: 50%;
+	width: 230px;
+	height: 150px;
+	color: #fff;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	padding: 50px 20px;
+	background-color: rgba(214, 211, 211, 0.3);
+}
+
+.container h1{
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.container p{
+	font-size: 16px;
+}
+
+/*********************section_title***************************/
+
+.section_container .title p{
+	font-size: 20px;
+	padding: 10px;
+}
+
+.section_container .title p::after{
+	display: none;
+}
+
+.section_container .title p::before{
+	display: none;
+}
+
+.introduction li{
+	max-width: 97%;
+	padding: 30px;
+	display: block;
+}
+
+.introduction_1{
+	background-image: url(../image/feature_1@2x.png);
+	background-size: cover;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.introduction_2{
+	background-image: url(../image/feature_2@2x.png);
+	background-size: cover;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.introduction_3{
+	background-image: url(../image/feature_3@2x.png);
+	background-size: cover;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+/*********************section_cook*************************/
+
+
+.section_cooks{
+	background-color: #f0932b;
+	width: 100%;
+	height: auto;
+}
+
+.section_cooks .cook{
+	background-image:url(../image/main_chef_brown@2x.png);
+	background-size: cover;
+	width: 100%;
+	height: 460px;
+	margin-left: 0;
+	float: none;
+}
+
+.section_cooks .about{
+	width: 100%;
+	margin-top: 20px;
+	padding: 5px;
+	float: none;
+	text-align: center;
+
+}
+
+.section_cooks h1{
+	color: #3D1101 ;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.section_cooks p{
+	color: #3D1101 ;
+	font-size: 16px;
+	padding: 5px;
+}
+
+/*********************section_guests*************************/
+.section_guests{
+	
+	height: auto;
+	
+}
+
+.guests li{
+	float: none;
+	width: 90%;
+	
+}
+
+
+
+.reservation li{
+	float: none;
+	width: 98%;
+	margin-bottom: 30px;
+}
+}
